@@ -29,7 +29,7 @@ In case you need help
 In case you have a question or got stuck, the following support options are
 available:
 
-* Reach out on the l4-hackers@os.inf.tu-dresden.de mailing list for help.
+* Reach out on the l4-hackers@os.inf.tu-dresden.de `mailing list <https://os.inf.tu-dresden.de/mailman3/postorius/lists/l4-hackers.os.inf.tu-dresden.de/>`_ for help.
 * Create an issue on `Github <https://github.com/L4Re>`_ at the affected
   component.
 * Contact `Kernkonzept <https://www.kernkonzept.com>`_ for professional support
