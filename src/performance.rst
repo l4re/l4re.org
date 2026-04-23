@@ -85,11 +85,16 @@ boot works like this: ``dd if=l4re_ipcbench_rpi5-elX.uimage of=l4re.raw bs=64 sk
 Plots of Parallel Execution of the Benchmark
 ============================================
 
-The following are plots showing IPC between two threads in the same task
-(address space) and on the same core, and one such pair running in parallel
-on each core. This benchmark shows the IPC scalability of the system. The
-graph shall be horizontal and flat to indicate IPC is happening without
-interference to and from other cores.
+The following plots show parallel execution of IPC and system call operation
+over the cores available in those platforms. The benchmarks show the
+scalability of the system. The graphs shall be horizontal and flat to
+indicate IPC and system calls are happening without interference to and from other cores.
+
+The IPC operation in the benchmark is IPC between two threads in the same
+task (address space), running on the same core. Such a pair of threads is
+running on each core.
+
+System calls are executed on each core in parallel.
 
 .. raw:: html
 
