@@ -46,6 +46,18 @@ create an issue and we fix it. That is typically the faster process overall.
 Patch Process
 =============
 
+All patches must have a unique Gerrit ``Change-Id:`` tag. This tag is
+automatically added by a commit hook. If you followed the
+:ref:`build_with_make` tutorial, the Gerrit hook should be in place already.
+Otherwise, you can fetch and install the git hook with the following steps
+manually in your cloned repository:
+
+.. sourcecode:: shell
+
+    hook="$(git rev-parse --git-dir)/hooks/commit-msg"
+    curl -s -o "$hook" https://raw.githubusercontent.com/GerritCodeReview/gerrit/refs/heads/stable-3.14/resources/com/google/gerrit/server/tools/root/hooks/commit-msg
+    chmod a+x "$hook"
+
 In order to maintain the high quality of the codebase we at Kernkonzept
 review each patch before it is submitted to the main branch. We might
 consider to do more work on the change for it to be ready to merge.
