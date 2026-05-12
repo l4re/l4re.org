@@ -317,6 +317,25 @@ In C code, the `_t` suffix denotes a type, e.g. `l4_uint32_t`, `l4_addr_t`.
 If a C++ class name ends with `_t` is must take a template parameter. It is not
 mandatory to use a `_t` suffix on a class taking template parameters.
 
+## Naming of L4Re service files
+
+To enable the reader to easily recognize the puprose of a non-binary file used
+in L4Re, e.g in the modules list or on a service's command line, their suffix
+shall denote either the service the file is used with or the purpose it
+serves.
+
+| Service | Purpose | Suffix |
+|---------|---------|--------|
+| ned | configuartion script | .ned  |
+| ned | lua library          | .lua  |
+| io  | hardware description | .io   |
+| io  | vbus description     | .vbus |
+| modules.list    | file listing | .list |
+|  |  |  |
+
+These file names are used in the `modules.list` as well as in the `SRC_ASSERT_*`
+rules in a Makefile.
+
 ## Loops
 
 ```c++
