@@ -10,6 +10,11 @@ researched:
 
 Research papers on L4Re-related topics:
 
+Scheduling Constraints: A Universal OS Mechanism for Managing Shared Resources
+  Moritz Lumme (ETH Zurich), Michael Roitzsch (Barkhausen Institut), Adam Lackorzyński (TU Dresden) |br|
+  *32nd IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), Saint Malo, France, May 2026* |br|
+  Links to follow
+
 MettEagle: Costs and Benefits of Implementing Containers on Microkernels
   Till Miemietz, Viktor Reusch, and Matthias Hille, Barkhausen Institut; Lars Wrenger, Leibniz-Universität Hannover; Jana Eisoldt, Barkhausen Institut; Jan Klötzke, Kernkonzept GmbH; Max Kurze, Technische Universität Dresden; Adam Lackorzynski, Technische Universität Dresden and Kernkonzept GmbH; Michael Roitzsch, Barkhausen Institut; Hermann Härtig, Barkhausen Institut and Technische Universität Dresden |br|
   *19th USENIX Symposium on Operating Systems Design and Implementation (OSDI25), Boston, MA, USA, July 2025* |br|
