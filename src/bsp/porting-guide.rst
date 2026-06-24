@@ -3,21 +3,28 @@
 BSP Porting Guide
 *****************
 
-This guide shall give guidelines for porting L4Re to a new SoC variant on an
-already supported architecture, e.g., enabling L4Re on a new Arm or RISC-V
-platform.
+Generally porting L4Re to a specific BSP shall not be necessary anymore as
+the "Generic Platform" uses platform and firmware information provided by
+the platform, for example, the device tree.
 
-Generally, providing the L4Re system with the device tree (DTB) on boot-up
-is the preferred variant as the device tree contains relevant information
-for setting up the system, especially potentially reserved memory regions of
-the platform.
+However, if the code needed by boot-up and in the microkernel Fiasco shall
+be minimal, L4Re can be adapted specificcally to a SoC/board.
+This guide shall give guidelines for porting L4Re to such a configuration
+on an already supported architecture, e.g., adapting L4Re to an Arm or
+RISC-V platform.
+
+Further, providing bootstrap with a device tree is still recommended for the
+reason of providing relevant information for setting up the system,
+especially potentially reserved memory regions of the platform. However,
+with specific adaption to the platform, using a device tree for bootstrap
+can be avoided as well.
 
 Affected Components
 -------------------
 
-Four components of L4Re need to be extended or adapted for supporting a new SoC:
+Four components of L4Re need to be extended or adapted for supporting a SoC:
 
-* The L4Re Microkernel
+* The L4Re Microkernel Fiasco
 * bootstrap
 * mk (Build system)
 * drivers-frst
