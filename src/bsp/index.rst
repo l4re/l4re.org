@@ -70,4 +70,6 @@ BSPs
    porting-guide.rst
    rpi.rst
    s32g.rst
+   s32e.rst
+   s32n79.rst
    zynqmp.rst

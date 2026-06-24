@@ -1,0 +1,9 @@
+NXP S32E/Z
+**********
+
+NXP's S32E/Z platform is based on Arm's Cortex-R52 cores. L4Re supports this
+SoC as an operating system and virtualization platform.
+
+For using and customzing L4Re to this SoC please refer to the
+:doc:`../demos/freertos-tvmm` sample applications, and/or talk to your NXP
+representative or Kernkonzept.

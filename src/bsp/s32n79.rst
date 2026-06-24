@@ -1,0 +1,13 @@
+NXP S32N79
+**********
+
+NXP's S32N79 platform has Arm Cortex-R52 cores and Cortex-A78AE
+cores. L4Re supports this SoC on both the Cortex-R52 cores and the
+Cortex-A78AE cores as an operating system and virtualization platform.
+
+For running L4Re on the Cortex-A78AE cores, please use the "Generic
+Platform" along with the device tree provided with the platform.
+
+For using and customzing L4Re to the Cortex-R52 cores of this SoC please
+refer to the :doc:`../demos/freertos-tvmm` sample applications, and/or talk
+to your NXP representative or Kernkonzept.
