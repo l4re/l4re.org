@@ -17,7 +17,7 @@ ld:start({ caps = {
                     icu      = L4.Env.icu;
                     iommu    = L4.Env.iommu,
                     sdhci    = vbus_sdhci:svr();
-                  },
+           },
          },
          "rom/io -vvvv " .. hw_desc_file .. " rom/vbus.io");
 
@@ -25,8 +25,8 @@ local emmc_part1 = ld:new_channel()
 ld:start({ caps = {
                     vbus   = vbus_sdhci,
                     disk1  = emmc_part1:svr(),
-         },
-         log = { "emmc", "cyan" },
+           },
+           log = { "emmc", "cyan" },
          }, "rom/emmc-drv " .. emmc_driver_params);
 
 -- 'emmc_part1' is now a valid virtio-block capability
