@@ -333,7 +333,7 @@ serves.
 | modules.list    | file listing | .list |
 |  |  |  |
 
-These file names are used in the `modules.list` as well as in the `SRC_ASSERT_*`
+These file names are used in the `modules.list` as well as in the `SRC_ASSETS_*`
 rules in a Makefile.
 
 ## Loops
