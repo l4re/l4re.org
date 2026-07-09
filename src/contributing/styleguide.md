@@ -499,6 +499,14 @@ ifeq ($(ARCH),mips)
 endif
 ```
 
+# Git commit messages
+
+Git commit messages have a maximum width of 72 characters for both the summary
+and the description. The maximum width may be exceeded only in exceptional
+cases.
+
+The commit message contains at least one _Signed-off-by:_ line.
+
 # Doxygen Styles
 
 * we use the `\command` Syntax
