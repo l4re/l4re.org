@@ -7,6 +7,13 @@ structure and some of the rules are derived from the Linux kernel coding style.
 In general a common coding style is about maintaining readability and
 maintainability of a shared code base.
 
+## Coding style changes
+
+In general, we do not change code just to fix the coding style. This obfuscates
+the history of the line without adding value.
+The coding style shall be fixed when working on the code and adding value to
+it.
+
 ## Indentation
 
 We don't use tabs but spaces for indentation. A new block of control is
@@ -304,6 +311,30 @@ private:
 
 Usually you should use `class` for class definitions.  `struct` may be only
 used for classes when all members of a class are public.
+
+In C code, the `_t` suffix denotes a type, e.g. `l4_uint32_t`, `l4_addr_t`.
+
+If a C++ class name ends with `_t` is must take a template parameter. It is not
+mandatory to use a `_t` suffix on a class taking template parameters.
+
+## Naming of L4Re service files
+
+To enable the reader to easily recognize the puprose of a non-binary file used
+in L4Re, e.g in the modules list or on a service's command line, their suffix
+shall denote either the service the file is used with or the purpose it
+serves.
+
+| Service | Purpose | Suffix |
+|---------|---------|--------|
+| ned | configuartion script | .ned  |
+| ned | lua library          | .lua  |
+| io  | hardware description | .io   |
+| io  | vbus description     | .vbus |
+| modules.list    | file listing | .list |
+|  |  |  |
+
+These file names are used in the `modules.list` as well as in the `SRC_ASSETS_*`
+rules in a Makefile.
 
 ## Loops
 
