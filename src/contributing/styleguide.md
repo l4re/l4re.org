@@ -517,7 +517,7 @@ The commit message contains at least one _Signed-off-by:_ line.
 * we have autobrief enabled, so don't use `\brief`
 * place an empty line after the brief description
 * The detailed description is placed after the documentation of the return
-  values. Put an emtpy line before the detailed description.
+  values. Put an empty line before the detailed description.
 
 ## Parameter Documentation
 
