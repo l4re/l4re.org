@@ -319,7 +319,7 @@ mandatory to use a `_t` suffix on a class taking template parameters.
 
 ## Naming of L4Re service files
 
-To enable the reader to easily recognize the puprose of a non-binary file used
+To enable the reader to easily recognize the purpose of a non-binary file used
 in L4Re, e.g in the modules list or on a service's command line, their suffix
 shall denote either the service the file is used with or the purpose it
 serves.
