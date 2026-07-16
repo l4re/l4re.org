@@ -71,5 +71,6 @@ BSPs
    rpi.rst
    s32g.rst
    s32e.rst
+   s32n55.rst
    s32n79.rst
    zynqmp.rst
