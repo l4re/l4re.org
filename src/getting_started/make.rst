@@ -26,7 +26,7 @@ Depending on your host system, you might need to install some prerequisities.
 
    .. sourcecode:: shell
 
-      apt-get install git make binutils liburi-perl libgit-repository-perl libxml-parser-perl gcc g++ libc6-dev-i386 libncurses-dev qemu-system xorriso mtools flex bison pkg-config gawk device-tree-compiler dialog wget doxygen graphviz qemu-system
+      apt-get install git make binutils liburi-perl libgit-repository-perl libxml-parser-perl gcc g++ libc6-dev-i386 libncurses-dev qemu-system xorriso mtools flex bison pkg-config gawk device-tree-compiler dialog wget doxygen graphviz qemu-system ccache
 
 
 .. tab:: Fedora
@@ -35,7 +35,7 @@ Depending on your host system, you might need to install some prerequisities.
 
    .. sourcecode:: shell
 
-      dnf install git make perl-CPAN perl-Git-Repository-Plugin-AUTOLOAD perl-libxml-perl flex bison gcc-x86_64-linux-gnu gcc-c++-x86_64-linux-gnu  diffutils dtc which ncurses-devel qemu
+      dnf install git make perl-CPAN perl-Git-Repository-Plugin-AUTOLOAD perl-libxml-perl flex bison gcc-x86_64-linux-gnu gcc-c++-x86_64-linux-gnu  diffutils dtc which ncurses-devel qemu ccache
       cpan XML::Mini
 
 .. tab:: Arch Linux
@@ -44,7 +44,7 @@ Depending on your host system, you might need to install some prerequisities.
 
    .. sourcecode:: shell
 
-      pacman -S --needed base-devel dtc lib32-gcc-libs qemu qemu-ar
+      pacman -S --needed base-devel dtc lib32-gcc-libs qemu qemu-ar ccache
 
    Additionally, these packages need to be installed from the AUR by a method
    of your choice:
