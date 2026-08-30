@@ -2,7 +2,7 @@ cons - Console multiplexer
 **************************
 
 ``cons`` is the interactive console multiplexer for the L4Re operating system.
-It allows to multiplex console output and input from and to different
+It allows multiplexing console output and input from and to different
 clients such as VMs and L4Re components and programs.
 
 ``cons`` is an interactive command line tool that works with commands and
@@ -79,7 +79,7 @@ Multiplexers and Frontends
 ``cons`` is able to connect multiple clients with multiple in/output servers.
 
 Clients are handled by a *multiplexer*. Each multiplexer publishes a server
-capability that allows to create new client connections. The default
+capability that allows creating new client connections. The default
 multiplexer is normally known under the ``cons`` capability.
 
 Actual in/output is handled by separate frontends. From the point-of-view of

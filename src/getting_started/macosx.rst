@@ -3,7 +3,7 @@
 Building L4Re on MacOS
 **********************
 
-L4Re can also be build on MacOS. The tools the L4Re build system relies on
+L4Re can also be built on MacOS. The tools the L4Re build system relies on
 are available via `Homebrew <https://brew.sh>`__, an open source software distribution and package
 manager for MacOS.
 
@@ -24,7 +24,7 @@ Ham
 
 Ham is a tool that manages multiple Git repositories from a common manifest
 file. Ham is used by the L4Re infrastructure. It is optional. Git
-repositories can be also downloaded with Git alone given they are arranged
+repositories can also be downloaded with Git alone given they are arranged
 as required.
 
 Ham is available for `download <https://l4re.org/download/ham/ham>`__.
@@ -115,7 +115,7 @@ Optional: Using Ham from its source repository
 In case you want to use Ham from its source repository on MacOS, some
 prerequisites have to be fulfilled.
 
-Ham is writte in Perl and uses some further Perl modules, which need to be
+Ham is written in Perl and uses some further Perl modules, which need to be
 installed: `Git::Repository` and `XML::Parser`.
 
 .. sourcecode:: shell

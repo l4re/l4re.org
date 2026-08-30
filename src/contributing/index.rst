@@ -111,4 +111,4 @@ Respond to review comments
 --------------------------
 
 Most contributions will almost certainly receive review comments. Please
-respond to those comments to show that you care about you contribution.
+respond to those comments to show that you care about your contribution.

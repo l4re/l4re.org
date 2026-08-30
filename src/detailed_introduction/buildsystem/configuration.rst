@@ -5,8 +5,8 @@ Both L4Re and the L4Re Microkernel use Linux's Kconfig system for configuration.
 If you have worked with Linux's configuration system before this should feel
 familiar to you.
 
-Configuration using the older ncurses interface
------------------------------------------------
+Configuration using the standard console interface
+--------------------------------------------------
 
 Once you've created a build directory and navigated into it. You can run the
 following command to configure your build::
@@ -23,18 +23,18 @@ Entries that begin with a ``[ ]`` or ``[*]`` are boolean options which can be
 toggled using the space bar.
 
 Entries that begin with a value in parenthesis are options that require an
-integer or string value. These can also bne adjusted by pressing the Enter key.
+integer or string value. These can also be adjusted by pressing the Enter key.
 
 More information about a particular option can be accessed using the ``?`` key.
 
-Configuration using the newer ncurses interface
------------------------------------------------
+Configuration using the alternative ncurses interface
+-----------------------------------------------------
 
-There is a newer ncurses interface which can be started as follows::
+There is an alternative ncurses interface which can be started as follows::
 
   make nconfig
 
-It behaves similarly to the older ncurses interface.
+It behaves similarly to the standard console interface.
 
 Configuration using the GTK interface
 -------------------------------------
@@ -43,16 +43,16 @@ To start the GTK GUI for configuration, you can run the following command::
 
   make gconfig
 
-A window will popup that can be navigated using the mouse cursor.
+A window will pop up that can be navigated using the mouse cursor.
 
-Configuration using the GTK interface
--------------------------------------
+Configuration using the Qt interface
+------------------------------------
 
 To start the Qt GUI for configuration, you can run the following command::
 
   make xconfig
 
-A window will popup that can be navigated using the mouse cursor.
+A window will pop up that can be navigated using the mouse cursor.
 
 Reconfiguration after updating the sources
 ------------------------------------------

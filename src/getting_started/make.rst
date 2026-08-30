@@ -14,10 +14,10 @@ GNU Make to compile your changes.
 Note that this guide is for Linux host systems. The L4Re build system also
 works on MacOS, please refer to the :ref:`macosx` page.
 
-Prerequisities
+Prerequisites
 ==============
 
-Depending on your host system, you might need to install some prerequisities.
+Depending on your host system, you might need to install some prerequisites.
 
 .. tab:: Debian 12 (Bookworm)
 
@@ -72,13 +72,13 @@ binary to some location in your PATH.
 Getting the Sources
 ===================
 
-Before initializing any projects, let's  talk about a suitable directory
+Before initializing any projects, let's talk about a suitable directory
 structure. L4Re is independent of the L4Re Microkernel location wise, as are
 the build directories for both. When starting with cross compilation, you will
 find that there can be multiple build directories for the same source directory
 (for both, L4Re, and the L4Re Microkernel). It is possible to place all build
 directories as subdirectories into the source, but in general the location can
-be chose arbitrarily.
+be chosen arbitrarily.
 
 The directory structure described in this guide is as follows:
 
@@ -102,7 +102,7 @@ The directory structure described in this guide is as follows:
 Firstly, we create environment variables for the mentioned directories to
 simplify further steps in the instructions. They are purely a help for the
 further steps in the guide and not mandated by the build system. The build
-locations are also just examples. Feel free to chose your own.
+locations are also just examples. Feel free to choose your own.
 
 .. sourcecode:: shell
 
@@ -272,7 +272,7 @@ The resulting microkernel binary is called ``fiasco``.
 Running the Hello World! Program
 ================================
 
-Now that we have sucessfully built Fiasco and L4Re, it is time to verify that
+Now that we have successfully built Fiasco and L4Re, it is time to verify that
 they were built correctly by running a simple demo scenario ``hello-cfg`` that
 uses the sample program called ``hello``:
 

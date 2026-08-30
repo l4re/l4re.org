@@ -45,7 +45,7 @@ instead of one. Save the following snippet into
    vm(2);
 
 To make life easier, we create a little wrapper function called *vm*. It
-allows you to replace the repetetive invocations of *vmm.start_vm* with
+allows you to replace the repetitive invocations of *vmm.start_vm* with
 much shorter calls to *vm*. For now, *vm* takes only the VM
 identification number so that you can later tell the VMs apart.
 

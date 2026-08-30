@@ -21,7 +21,7 @@ The interfaces provided by a server are specified in C++ and added
 annotation provided by the L4Re IPC framework.
 
 For the purpose of describing the mechanisms we use a simple example where a
-``calc`` server provides two calculation function for clients.
+``calc`` server provides two calculation functions for clients.
 
 
 The interface definition looks like this:
@@ -49,9 +49,9 @@ A client can use those interfaces like this, in a bare minimum variant:
 
 
 While overall it looks natural, calling a function with some parameters, a
-questions remains: Where does 'server' come from?
+question remains: Where does 'server' come from?
 
-``server`` is a capability to points to the server. The client program needs
+``server`` is a capability that points to the server. The client program needs
 to get this capability from the environment, i.e., it needs to be made
 available through the client program startup.
 
@@ -110,12 +110,12 @@ parameters, and return a result. This looks like this:
      }
    };
 
-The functions are implemented in the scope of a ``Calculation_server`` call and
+The functions are implemented in the scope of a ``Calculation_server`` class and
 are prefixed with ``op_``. The class is derived from ``Calc``, which defines the
 interfaces.
 
 Next, we need to hook up the ``Calculation_server`` class into a server loop.
-A server loop is the core way of working for a server. It waits from client
+A server loop is the core way of working for a server. It waits for client
 requests, serves them by dispatching to the class's ``op_``-functions, and
 waits again. This is a server loop.
 

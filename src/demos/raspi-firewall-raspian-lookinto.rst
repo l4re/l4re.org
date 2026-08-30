@@ -10,7 +10,7 @@ follow a similar pattern. They require a Linux system to be carried out.
 
 
 First, download the image, and as it is compressed, decompress it. This
-requires about of 3GB storage.
+requires about 3GB of storage.
 
 
 .. sourcecode:: shell
@@ -18,7 +18,7 @@ requires about of 3GB storage.
    $ cd /tmp
    $ curl https://l4re.org/download/demo/rpi4_l4re_demo-202506.img.gz | zcat > rpi4_l4re_demo-202506.img
 
-This is a disk image, so it has paritions. Those we can show:
+This is a disk image, so it has partitions. Those we can show:
 
 .. sourcecode:: shell
  
@@ -56,7 +56,7 @@ them.
 
 
 So as we are executing those commands we see that we can successfully mount the
-first two partitions but not the third. There seems to be something else on
+first two partitions but not the third. There seems to be something else
 there.
 
 Let us first examine the partitions we could mount:
@@ -70,7 +70,7 @@ Let us first examine the partitions we could mount:
    bin  etc  lib64       mnt      proc  root  sys  usr  www
    dev  lib  lost+found  overlay  rom   sbin  tmp  var
 
-So the first partitions looks like the partitions used for booting, as it
+So the first partition looks like the partition used for booting, as it
 has a device tree (``bcm2711-rpi-4-b.dtb``), the file ``config.txt`` which
 is the typical file configuring booting on the Raspberry Pi, and u-boot,
 which is a boot loader. It also has ``bootstrap.raw`` which we are very
@@ -80,7 +80,7 @@ The second partition very much looks like a Linux system, which is probably
 run in a VM in the demo.
 
 So we are interested in this ``bootstrap.raw`` file. Could it be the one
-that is booted by the Raspberry Pi? Lets check!
+that is booted by the Raspberry Pi? Let's check!
 
 If the ``bootstrap.raw`` file is an L4Re image file, the ``l4image`` tool
 will recognize it.
@@ -122,7 +122,7 @@ required to run this as root.
 Looks good! What do we see here?
 
 This image contains 20 modules, binaries of programs, configuration files, a
-Linux kernel, a device tree blob. To look at the files, lets extract the
+Linux kernel, a device tree blob. To look at the files, let's extract the
 image. Like this:
 
 .. sourcecode:: shell

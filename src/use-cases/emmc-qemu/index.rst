@@ -3,19 +3,19 @@
 Using eMMC/SDHCI
 ****************
 
-``emmc-drv`` is an L4Re block driver for eMMC and SDHC devices. It works
-also in QEMU, which we show here how to setup.
+``emmc-drv`` is an L4Re block driver for eMMC and SDHC devices. It also
+works in QEMU, which we show here how to set up.
 
-The function of the driver is to provide access to a eMMC/SDHC device per
+The function of the driver is to provide access to an eMMC/SDHC device per
 granularity of GPT partitions. In other words, the driver provides one
 Virtio-Block device per GPT partition on the storage device.
 
 
-Setting up the setup
---------------------
+Setup
+-----
 
 The following ned script shows the necessary steps to launch the driver and
-provide Virtio-block device to potential clients, such as a virtual machine
+provide a Virtio-block device to potential clients, such as a virtual machine
 or an L4Re application.
 
 .. literalinclude:: ../../../_static/use-cases/emmc-qemu/emmc-qemu.ned

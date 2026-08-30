@@ -9,7 +9,7 @@ BSP and hardware support
    - The list is not really long. Are there more we could add?
 
 L4Re supports many SoCs and boards. The following list is a collection of
-informations for specific boards and setups. Usually, if the SoC is
+information for specific boards and setups. Usually, if the SoC is
 supported, any other board based on the same SoC will be usable too.
 
 
@@ -22,7 +22,7 @@ Arm
 ^^^
 
 Arm uses a "Generic Platform" setup that shall cover all Arm platforms
-uniformely with a device tree.
+uniformly with a device tree.
 
 The Arm SBSA BSP uses ACPI and works on all SBSA-compliant platforms.
 

@@ -17,7 +17,7 @@ Getting Started
 #. Download the current `demo image <https://l4re.org/download/demo/rpi4_l4re_demo-202506.img.gz>`_
    (`SHA256 checksum <https://l4re.org/download/demo/rpi4_l4re_demo-202506.img.gz.SHA256SUM>`_)
    for the SD card.
-#. Flash the image to a SD card (size >= 8GB)
+#. Flash the image to an SD card (size >= 8GB)
 
    .. sourcecode:: shell
       :caption: Linux
@@ -78,7 +78,7 @@ different client consoles.
         vm_openwrt (1) [        ] out:  328/ 19499 in:    0/    0
         vm_raspian (2) [        ] out:  516/ 37126 in:    0/    0
 
-You can see 2 virtuals machines (VMs) running: `vm_openwrt` and `vm_raspian`.
+You can see 2 virtual machines (VMs) running: `vm_openwrt` and `vm_raspian`.
 
 Connect to the VM consoles
 
@@ -86,7 +86,7 @@ Connect to the VM consoles
 
     demo> connect vm_openwrt
 
-To discconnect from a client console press `CTRL+e .` ("Ctrl e" plus "dot")
+To disconnect from a client console press `CTRL+e .` ("Ctrl e" plus "dot")
 
 The VMs
 =======
@@ -94,7 +94,7 @@ The VMs
 OpenWRT
 -------
 
-If your PC and the Rasperry Pi are connected to the same network you can access the OpenWRT web
+If your PC and the Raspberry Pi are connected to the same network you can access the OpenWRT web
 interface.
 
 .. figure:: openwrt-webui.png

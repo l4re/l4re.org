@@ -4,7 +4,7 @@ L4Re on AWS EC2
 ***************
 
 This page describes how to run L4Re on AWS EC2. EC2 instances boot via UEFI,
-thus L4Re images have to be UEFI accordingly.
+thus L4Re images have to be UEFI images.
 
 .. note::
 
@@ -38,7 +38,7 @@ in the section :doc:`/detailed_introduction/buildsystem/configuration`
 Instance type m7g.metal
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The m7g.metal intance type is based on the ARM SBSA specification, which is why
+The m7g.metal instance type is based on the ARM SBSA specification, which is why
 we choose ``arm_sbsa`` as the platform type. L4Re and the L4Re
 microkernel require specific configurations to work on the m7g.metal instance
 type hardware.
@@ -239,7 +239,7 @@ Nuanced storage access using nvme-drv
 
 The storage vbus from our previous example contains the AMI NVME device and
 several other configured NVMe devices. In order to not give access to all
-of them to one guest we can use the nvme-drv to create seperate virtio
+of them to one guest we can use the nvme-drv to create separate virtio
 devices giving access to specific partitions and/or EC2 volumes.
 
 .. code-block:: lua
@@ -267,7 +267,7 @@ Full storage access without using nvme-drv
 
 In cases where simpler, full storage access passthrough is desired, the nvme-drv
 is not necessary. In this case IO can be configured without a ``vbus_storage``
-channel. Instead we add the devices the vbus_guest1 channel.
+channel. Instead we add the devices to the vbus_guest1 channel.
 
 .. code-block:: lua
 

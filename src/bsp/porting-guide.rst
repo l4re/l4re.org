@@ -11,7 +11,7 @@ BSP Porting Guide
    the platform, for example, the device tree.
 
 However, if the code needed by boot-up and in the microkernel Fiasco shall
-be minimal, L4Re can be adapted specificcally to a SoC/board.
+be minimal, L4Re can be adapted specifically to a SoC/board.
 This guide shall give guidelines for porting L4Re to such a configuration
 on an already supported architecture, e.g., adapting L4Re to an Arm or
 RISC-V platform.

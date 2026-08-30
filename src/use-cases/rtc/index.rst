@@ -13,18 +13,18 @@ needs to be configured accordingly.
 .. sourcecode:: lua
    :linenos:
 
-   -- vim:ft=lua
-   local L4 = require("L4");
-   local ld = L4.default_loader;
+    -- vim:ft=lua
+    local L4 = require("L4");
+    local ld = L4.default_loader;
 
-   local io_vbus_rtc = ld:new_channel();
-   ld:start({
-               caps = {
-                 icu       = L4.Env.icu,
-                 sigma0    = L4.Env.sigma0,
-                 vbus_rtc  = io_vbus_rtc:svr(),
-               },
-            }, "rom/io rom/x86-legacy.devs rom/vbus.io");
+    local io_vbus_rtc = ld:new_channel();
+    ld:start({
+                caps = {
+                  icu       = L4.Env.icu,
+                  sigma0    = L4.Env.sigma0,
+                  vbus_rtc  = io_vbus_rtc:svr(),
+                },
+             }, "rom/io rom/x86-legacy.devs rom/vbus.io");
 
     local rtc = ld:new_channel();
 

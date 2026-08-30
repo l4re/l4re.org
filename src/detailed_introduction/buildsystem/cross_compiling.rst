@@ -13,10 +13,10 @@ In this guide, we will cross-compile L4Re and the L4Re Microkernel for
 
    If your distribution does not have the right tools or you don't have the
    rights to install them, it is possible to use a toolchain located at an
-   arbitrary location. Just interchange all occurences of the installed tools
+   arbitrary location. Just interchange all occurrences of the installed tools
    with the path to the binaries in your toolchain.
 
-The cross-compilation of L4Re and the L4Re Mikrokernel is possible with the
+The cross-compilation of L4Re and the L4Re Microkernel is possible with the
 same sources we used to get a local build. We just need different build directories:
 
 .. sourcecode:: shell

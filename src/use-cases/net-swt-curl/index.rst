@@ -5,7 +5,7 @@ Networking with curl
 
 There are several options for providing network functionality on L4Re.
 
-Basically two variants exists with respect to where a driver for a network
+Basically two variants exist with respect to where a driver for a network
 device can be placed.
 
 One way is using an existing system, such as Linux, running it in a VM and
@@ -18,7 +18,7 @@ be specifically customized for purpose of handling networking only.
 
 A driver running in an L4Re application. This driver can either be ported
 from some other environment or operating system, or written from scratch.
-Eventually such a driver needs to interact with with the software
+Eventually such a driver needs to interact with the software
 components that use it. Use could be in-process, i.e. an application has a
 specific network driver built-in and thus directly talks to the network
 device. Or the driver offers its services to other components in the
@@ -110,7 +110,7 @@ The following `shell script <https://l4re.org/_static/use-cases/net-swt-curl/bui
 summarizes the above steps. Of course you can build this setup from your
 existing source tree, given all the needed repositories, as described above,
 are available. The files downloaded
-are exactly the ones from this pages (given you are looking at a version
+are exactly the ones from this page (given you are looking at a version
 generated out of the referenced files).
 
 .. literalinclude:: ../../../_static/use-cases/net-swt-curl/build_and_run.sh

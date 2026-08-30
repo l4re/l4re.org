@@ -57,7 +57,7 @@ The example runs in the `Arm Fixed Virtual Platform
 <https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms>`_
 emulator. To run it, download the FVP_Base_AEMv8R model of the
 `Arm Architecture FVPs <https://developer.arm.com/Tools%20and%20Software/Fixed%20Virtual%20Platforms/Arm%20Architecture%20FVPs>`_
-for you host platform. These models are available free of charge:
+for your host platform. These models are available free of charge:
 
 .. sourcecode:: shell
 
@@ -66,7 +66,7 @@ for you host platform. These models are available free of charge:
     export PATH="$PWD/AEMv8R_base_pkg/models/Linux64_GCC-9.3:$PATH"
 
 The example has been tested with the 11.28 release but it should also work
-with older models. Starting the example assumes that the FVP is availble
+with older models. Starting the example assumes that the FVP is available
 in ``$PATH``:
 
 .. sourcecode:: shell

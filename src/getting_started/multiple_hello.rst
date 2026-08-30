@@ -35,13 +35,13 @@ What Runs Below Hello
 When executing the example scenario ``hello-cfg``, what actually happens is the
 following:
 
-- **The L4Re Microkernel** is started and launches the two initial application
-  that manages memory and the first application that is responsible for
+- **The L4Re Microkernel** is started and launches the two initial
+  applications: one that manages memory and one that is responsible for
   providing an environment to launch the rest of the system.
 - **Sigma0** manages memory. Sigma0 is started and gets the necessary memory
   information from the kernel. With this information, the application
   responsible for starting applications can be started.
-- **Moe** starts user applications and provides a environment with convenient
+- **Moe** starts user applications and provides an environment with convenient
   abstractions to them. Moe is started and provides abstractions for managing
   memory, logging and constraining scheduling parameters. It can start another
   arbitrary application that can now rely on these abstractions.
@@ -114,7 +114,7 @@ application known under the name ``rom/hello``.
       module hello.cfg
       module hello
 
-It describes to composition of a system to be booted. Every module line
+It describes the composition of a system to be booted. Every module line
 specifies a binary that is to be made available inside the system in the ``rom``
 namespace (comparable to a directory) which is accessible inside Ned.
 

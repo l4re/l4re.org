@@ -3,7 +3,7 @@ Modify an existing image
 
 Files in the existing images can be replaced, by using the ``l4image`` tool.
 
-We will show how this works by updating one the of the pre-built images
+We will show how this works by updating one of the pre-built images
 running Linux with a new Linux kernel.
 
 We will do this tutorial for Arm64 with QEMU. So we download the following
@@ -111,6 +111,6 @@ Now launch the image again, as we already did above:
 As we see, we updated the image with the new Linux kernel.
 
 Not only the Linux kernel can be updated, but any file that is within the
-image. ``l4image`` also has an ``edit`` command to edit text file, like
+image. ``l4image`` also has an ``edit`` command to edit text files, like
 configurations, directly.
 

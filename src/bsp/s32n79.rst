@@ -8,6 +8,6 @@ Cortex-A78AE cores as an operating system and virtualization platform.
 For running L4Re on the Cortex-A78AE cores, please use the "Generic
 Platform" along with the device tree provided with the platform.
 
-For using and customzing L4Re to the Cortex-R52 cores of this SoC please
+For using and customizing L4Re to the Cortex-R52 cores of this SoC please
 refer to the :doc:`../demos/freertos-tvmm` sample applications, and/or talk
 to your NXP representative or Kernkonzept.

@@ -141,7 +141,7 @@ remark that it is possible to match the real hardware exactly.
 In addition, this configuration specifies that the *nvme* vbus will
 support up to 2 MSI interrupts. One is for the NVMe admin queues and one
 is for the I/O queue pair of each active NVMe namespace. In general you
-want to have this limit large enough to accomodate all your NVMe
+want to have this limit large enough to accommodate all your NVMe
 namespaces with connected clients and the admin queues. If MSI
 interrupts are not configured or are not available, the NVMe server will
 fall back to using legacy interrupts.
@@ -208,14 +208,14 @@ created by *io*. *cl1* is a server capability for the NVMe server’s
 client that will be eventually handed over to *uvmm* for use by the
 Linux VM. The client is assigned a VIRTIO block device identified by the
 controller’s serial number (in our case this is *MYNVMECTLSN*) and the
-number of the NVMe namepspace, in this case namespace 1. If you run this
+number of the NVMe namespace, in this case namespace 1. If you run this
 tutorial on bare metal, make sure to change the serial number to match
 your hardware. Note that the *device* command line argument can instead
 identify a GPT partition by its GUID or label. In that case the client
 will be able to access only that particular partition.
 
 Finally, *uvmm* is started using the *vmm* convenience wrapper. In
-constrast to the previous tutorials (which were for the aarch64
+contrast to the previous tutorials (which were for the aarch64
 architecture), the arguments are tailored for running on x86_64. This
 shows in the used device tree (*virt-pc.dtb*) and the Linux image name
 (*bzImage*). Also note that the *-i* command line argument is not used
@@ -267,7 +267,7 @@ Go to *somedir/l4/conf* and copy *Makeconf.boot.example* to
 -  somedir/build-linux-x86_64/arch/x86/boot/
 
 are all included in the definition of *MODULE_SEARCH_PATH*. The
-individual paths need to be absolute and spearated by colons. An example
+individual paths need to be absolute and separated by colons. An example
 definition of *MODULE_SEARCH_PATH* might look as follows. Just make sure
 to change *SOMEDIR* according to your environment:
 
@@ -334,7 +334,7 @@ collected it should look like this:
 This suggests the NVMe server discovered the NVMe controller emulated by
 QEMU. Note the serial number matches the one passed to QEMU via its
 command line argument. Also note that the server is using MSI
-interrupts. The controller reports 256 NVMe namespace, but only
+interrupts. The controller reports 256 NVMe namespaces, but only
 namespace 1 is used. It is the one which contains the disk image passed
 to QEMU. The disk image we prepared has no GPT partitions which is in
 line with what the NVMe server reports. We see that a client registered

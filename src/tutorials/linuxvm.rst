@@ -14,11 +14,11 @@ the 64-bit ARM architecture, while in some other parts we use *arm64* or
 even *ARMv8* to refer to the same. This may seem somewhat arbitrary and
 confusing at the same time, but is to a large degree dictated by the
 conventions of the components at hand. QEMU and toolchain-related uses
-typically require *aarch64* while L4Re typically refer to *arm64*. The
+typically require *aarch64* while L4Re typically refers to *arm64*. The
 bottom line is that these terms are largely interchangeable and should
 not confuse you.
 
-Prerequisities
+Prerequisites
 --------------
 
 You will need several ingredients:
@@ -168,7 +168,7 @@ Besides the Linux kernel itself, you are also going to need an initial
 ramdisk with some programs on it. You have basically two options: either
 build your own ramdisk from scratch or use a ramdisk that someone else
 made for you. l4re.org has some ready-to-use ramdisks for you. If you’re
-looking for some more options or different ones, please follow one one
+looking for some more options or different ones, please follow one
 of the tutorials found on the Internet. The example below uses the one
 from l4re.org.
 
@@ -179,7 +179,7 @@ Unlike the simple *hello* example that is used as the most simple example,
 running a VM with a Linux guest is a little bit more involved and requires a
 little bit of configuration.
 
-Now that all the prerequisities were installed, built or downloaded, you
+Now that all the prerequisites were installed, built or downloaded, you
 are ready to put everything together. First of all, you need to create a
 directory for configuration files:
 
@@ -192,7 +192,7 @@ A ned script
 ~~~~~~~~~~~~
 
 In L4Re, components of the resulting system are described and connected
-together in a so-called ned script. The name is dervied from *ned*,
+together in a so-called ned script. The name is derived from *ned*,
 which is an init process component that spawns other components and
 interconnects them via IPC channels (i.e. IPC gate capabilities)
 according to a Lua configuration file passed to it as an argument.
@@ -243,7 +243,7 @@ Optionally, if you built your own ramdisk add the path from that, or
 Linux kernel as above, add
 ``somedir/build-linux-aarch64/arch/arm64/boot/``.
 
-The individual paths need to be absolute and spearated by colons. An
+The individual paths need to be absolute and separated by colons. An
 example definition of *MODULE_SEARCH_PATH* might look as follows. Just
 make sure to change *SOMEDIR* according to your environment:
 
@@ -254,7 +254,7 @@ make sure to change *SOMEDIR* according to your environment:
 
 For running in QEMU, the *Makeconf.boot* derived from
 *Makeconf.boot.example* already contains the proper configuration
-optiosn for QEMU. You can check the *QEMU_OPTIONS* to see yourself.
+options for QEMU. You can check the *QEMU_OPTIONS* to see yourself.
 
 Spawning the Linux VM
 ~~~~~~~~~~~~~~~~~~~~~
@@ -277,7 +277,7 @@ Supplementary: Using the vmm convenience wrapper
 Invoking *io* and *uvmm* manually like we do in the vm-basic scenario
 above can quickly become tedious and impractical when more flexibility
 and functionality is desired. L4Re therefore provides a convenience
-wrapper to abstract away the repetetive parts. This wrapper is located
+wrapper to abstract away the repetitive parts. This wrapper is located
 in *somedir/l4/pkg/uvmm/configs/vmm.lua*.
 
 At the expense of hiding some interesting details under the cover, our

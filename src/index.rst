@@ -18,7 +18,7 @@ maintained by `Kernkonzept <https://www.kernkonzept.com>`_.
        <p class="topic-title">
          <a href="getting_started/index.html">Getting Started</a>
        </p>
-       Learn how to build a run L4Re on different platforms.
+       Learn how to build and run L4Re on different platforms.
      </aside>
 
      <aside class="topic">
@@ -66,7 +66,7 @@ Real time
 
 Professional support
   The developers and maintainers of L4Re did their first steps towards L4Re
-  more than 25 years ago in 1997 at the TU Dresden. The time has lead to a
+  more than 25 years ago in 1997 at the TU Dresden. The time has led to a
   concentration of experience which by now is bundled at `Kernkonzept
   <https://www.kernkonzept.com>`_. Kernkonzept provides professional support
   and consulting for all questions around L4Re.

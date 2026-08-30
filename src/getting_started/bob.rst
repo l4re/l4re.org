@@ -3,7 +3,7 @@
 Building With the Bob Build Tool
 ********************************
 
-This guide places the sources in the directory ``$HOME/projects/l4re``. You can choose the this location as you like. That's why we start defining an environment variable for this location:
+This guide places the sources in the directory ``$HOME/projects/l4re``. You can choose this location as you like. That's why we start defining an environment variable for this location:
 
 .. sourcecode:: shell
 

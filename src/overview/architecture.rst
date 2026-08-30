@@ -33,10 +33,10 @@ following layers:
 
 .. topic:: Microkernel
 
-   The L4Re Microkernel is the component at the lowest level of the software
-   stack. It is the only piece of software of the L4Re operating system that
-   runs in a higher privilege level of the processor to be able to program
-   to processor's isolation features.
+    The L4Re Microkernel is the component at the lowest level of the software
+    stack. It is the only piece of software of the L4Re operating system that
+    runs in a higher privilege level of the processor to be able to program
+    the processor's isolation features.
 
    The kernel provides primitives to execute programs in tasks, to enforce
    isolation among them, and to provide means of secure communication in order
@@ -74,17 +74,17 @@ following layers:
 
 .. topic:: Virtual Machines
 
-   Virtual machines (VMs) provide a virtual environment to run a whole
-   operating system with its applications. VMs are run by a hypervisor,
-   similar that applications are run by an operating system.
+    Virtual machines (VMs) provide a virtual environment to run a whole
+    operating system with its applications. VMs are run by a hypervisor,
+    similar to how applications are run by an operating system.
 
    L4Re is both an operating system and a hypervisor, i.e., it can run
    L4Re applications side-by-side with VMs. In L4Re, a virtual machine
    monitor program (VMM) provides the virtual environment for a guest
-   operationg system.
+   operating system.
 
    Device virtualization is primarily implemented through Virtio, the
-   defacto standard for virtual devices and commonly available in many
+   de facto standard for virtual devices and commonly available in many
    operating systems already.
 
 Next Steps

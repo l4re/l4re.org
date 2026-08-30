@@ -5,8 +5,8 @@ eMMC on NXP S32G
 
 In this use-case we will run the emmc-driver on the NXP S32G.
 
-The emmc-driver provides access to eMMC and SD-Card like devices, and
-provide clients with a block interface to read and write blocks via
+The emmc-driver provides access to eMMC and SD-Card like devices, giving
+clients a block interface to read and write blocks via the
 Virtio-block protocol.
 
 To run the emmc-driver, it needs access to the eMMC or SD controller of the

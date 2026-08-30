@@ -103,7 +103,7 @@ means of a device tree. *uvmm* comes with its own device tree for the
 virtual machine, which is located in
 *somedir/l4/pkg/uvmm/configs/dts/virt-arm_virt-64.dts*.
 
-Because of the PL031, you need a sligthly modified version. A
+Because of the PL031, you need a slightly modified version. A
 straightforward way would be to make modifications directly to
 *virt-arm_virt-64.dts*. We will, however, proceed more hygienically and
 merge the PL031 bits with the *uvmm* device tree by way of a simple

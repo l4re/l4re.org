@@ -5,9 +5,9 @@ L4Re uses `make <https://www.gnu.org/software/make>`_ for building all artifacts
 of the system.
 
 While it is always safe and valid to just issue ``make`` from the root directory
-of your build tree, this takes longer than needed when building everything is
-not required. For example, this is the case if you are working on a specific
-package.
+of your build tree, this takes longer than needed when everything does not
+need to be built. For example, this is the case if you are working on a
+specific package.
 
 There are a couple of options to only build what is of interest.
 
@@ -51,7 +51,7 @@ Build Anywhere
 
 The L4Re build system has Makefiles everywhere, so you can also start the build
 process from everywhere. This includes both the source tree as well as the
-object tree. The build system will descent to sub-directories.
+object tree. The build system will descend to sub-directories.
 
 
 Parallel Building

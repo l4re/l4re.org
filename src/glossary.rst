@@ -37,14 +37,14 @@ Glossary
 
   IPC gate
     An IPC gate is used to create a secure communication channel between
-    different :term:tasks. It embeds a label (kernel protected payload) that
+    different :term:`Tasks<Task>`. It embeds a label (kernel protected payload) that
     securely identifies the gate through which a message is received. The gate
     label is not visible to and cannot be altered by the sender.
 
   IRQ
     IRQ objects provide access to hardware interrupts. Additionally, programs
-    can create new virtual interrupt objects and trigger them. This allows to
-    implement a signaling mechanism. The receiver cannot decide whether the
+    can create new virtual interrupt objects and trigger them. This allows
+    implementing a signaling mechanism. The receiver cannot decide whether the
     interrupt is a physical or virtual one.
 
   Vcon

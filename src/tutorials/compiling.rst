@@ -26,7 +26,7 @@ Cross-Toolchain
 ===============
 
 The cross-toolchain is a gcc-based toolchain that compiles L4Re binaries on
-a Linux host. It works as a normal cross compiler and thus allows to use any
+a Linux host. It works as a normal cross compiler and thus allows using any
 build system, such as autotools, cmake, or meson.
 
 At time of writing, this toolchain is work in progress.

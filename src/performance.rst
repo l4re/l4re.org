@@ -7,13 +7,14 @@ IPC, Context-Switch and Syscall Performance
 With L4Re being a microkernel-based system and hypervisor, some of you are
 interested in the IPC and syscall performance of L4Re as well as the
 performance of context switches. IPC is a base-level communication
-mechanisms that allows to exchange a limited amount of payload data between
+mechanism that allows exchanging a limited amount of payload data between
 two threads. Context switching is switching from one executing thread to
 another, which sending a message is exactly doing.
 The fastest IPC is between two threads running in the same
 address space (task) on the same CPU core (`Intra`). `Inter` is IPC between
 two address spaces. A syscall is also an IPC but only communicates with the
 kernel.
+
 
 The following table provides IPC performance numbers for a single IPC on
 various popular platforms (average over multiple ten thousand calls). To
@@ -71,7 +72,7 @@ is used. On x86, the fixed-function counters are used.
 
 .. [#1] Values reflect the PMC's fixed-function counters 2 (TSC without halt) / 1 (clocks unhalted) / 0 (instructions retired)
 
-.. [#2] The Cortex-A72 performs considerable slower in EL2 mode, compared to
+.. [#2] The Cortex-A72 performs considerably slower in EL2 mode, compared to
         running in EL1, and compared to EL2 of other Arm cores. This has
         been analyzed down to the microarchitectural level and cannot be
         influenced by software.

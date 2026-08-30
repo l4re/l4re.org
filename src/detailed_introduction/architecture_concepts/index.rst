@@ -39,7 +39,7 @@ Communication
 -------------
 
 The basic communication mechanism in L4-based systems is called :doc:`Inter
-Process Comunication (IPC) <IPC>`.  It is always synchronous, i.e. both
+Process Communication (IPC) <IPC>`.  It is always synchronous, i.e. both
 communication partners need to actively rendezvous for IPC. In addition to
 transmitting arbitrary data between threads, IPC is also used to resolve
 hardware exceptions, faults and for virtual memory management.

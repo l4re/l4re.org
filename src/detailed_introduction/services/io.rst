@@ -18,7 +18,7 @@ memory, ports (on x86) and interrupts, and grants access to those to clients.
 
 Upon startup Io discovers all platform devices using available means on the
 system, e.g. on x86 the PCI bus is scanned and the :term:`ACPI` subsystem
-initialised. Available I/O resource can also be configured via configuration
+initialized. Available I/O resources can also be configured via configuration
 scripts.
 
 

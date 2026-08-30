@@ -89,7 +89,7 @@ process will be confined to the scheduler's CPU set:
             },
             "rom/uvmm", ...);
 
-This constraints the VM's threads to the specified cores, preventing them
+This constrains the VM's threads to the specified cores, preventing them
 from running and thus interfering with workloads on other cores.
 
 Memory partitioning

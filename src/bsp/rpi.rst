@@ -210,7 +210,7 @@ With the Rpi5 the peripheral structure of the hardware changed, such that
 network functionality in u-boot is not available. However, the Raspberry
 firmware can boot via TFTP itself.
 
-Steps to setup networking booting are:
+Steps to set up network booting are:
 
 * Setup a DHCP and TFTP server as described above.
 * Use the Ethernet port.

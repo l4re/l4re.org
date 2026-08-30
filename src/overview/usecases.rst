@@ -13,7 +13,7 @@ Safety and Mixed Criticality Systems
 
 Safety systems need to guarantee Freedom from Interference both in the spatial
 and the temporal domain. Due to the microkernel architecture of L4Re the small
-code footprint of safety-critical parts of the system are particularly well
+code footprint of safety-critical parts of the system is particularly well
 suited for certification in safety critical domains, for example to provide
 mixed criticality systems hosting ASIL and QM workloads on the same system.
 Specific configurations of L4Re have been certified as a safety element out of

@@ -5,7 +5,7 @@ There are a number of avenues available to get started with L4Re.
 
 .. topic:: :doc:`Run pre-built images on Hardware </bsp/index>`
 
-   To get a glimpse of how L4Re looks like, there are a number of pre-built
+   To get a glimpse of how L4Re looks, there are a number of pre-built
    images available together with the instructions on how to run them on
    specific hardware.
 

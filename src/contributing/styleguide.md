@@ -326,7 +326,7 @@ serves.
 
 | Service | Purpose | Suffix |
 |---------|---------|--------|
-| ned | configuartion script | .ned  |
+| ned | configuration script | .ned  |
 | ned | lua library          | .lua  |
 | io  | hardware description | .io   |
 | io  | vbus description     | .vbus |

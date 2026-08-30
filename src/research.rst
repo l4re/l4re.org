@@ -48,7 +48,7 @@ Lateral Thinking for Trustworthy Apps
 Predictable Low-Latency Interrupt Response with General-Purpose Systems
   Adam Lackorzynski, Carsten Weinhold, Hermann Härtig |br|
   *Workshop on Operating Systems Platforms for Embedded Real-Time applications
-  (OSPERT 2017), Dubrovnik, Kroatia, June 2017* |br|
+  (OSPERT 2017), Dubrovnik, Croatia, June 2017* |br|
   `PDF <https://os.inf.tu-dresden.de/papers_ps/ospert2017-predictable-irq-response.pdf>`__
 
 Combining Predictable Execution with Full-Featured Commodity Systems

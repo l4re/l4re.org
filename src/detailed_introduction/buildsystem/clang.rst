@@ -7,7 +7,7 @@ Building L4Re with Clang
 ========================
 
 Building L4Re with Clang is as easy as providing ``CLANG=1`` to the
-confguration and building step:
+configuration and building step:
 
 .. sourcecode:: shell
 
@@ -101,7 +101,7 @@ Dedicated Toolchains
 --------------------
 
 In contrast to building L4Re, when building The L4Re Microkernel, we can just
-switch out the configured values for our toolchains. The buildsystem deduces
+switch out the configured values for our toolchains. The build system deduces
 the cross-compilation command line parameter for Clang from the
 ``CROSS_COMPILE`` variable even if it is a toolchain path:
 

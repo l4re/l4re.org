@@ -116,7 +116,7 @@ For this functionality to be used, we have to adjust the ``main.c`` file:
        }
    }
 
-For it to be properly build, we have to adjust the ``Makefile``. We need to add
+For it to be properly built, we have to adjust the ``Makefile``. We need to add
 the source file to the list of source files to compile and we have to give a
 hint on where to get the included header file from:
 
@@ -148,8 +148,8 @@ Lastly, we have to actually use the new feature in our scenario:
    L4.default_loader:start({ log = { "hello-1", "red" } }, "rom/hello user1");
    L4.default_loader:start({ log = { "hello-2", "cyan" } }, "rom/hello user2");
 
-Now we can rebuild an run the scenario to see two different users be greeted
-once a cecond.
+Now we can rebuild and run the scenario to see two different users be greeted
+once a second.
 
 Next Steps
 ==========
