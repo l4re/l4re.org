@@ -11,7 +11,10 @@ Glossary
     status monitoring.
 
   Capability
-    ...
+    A kernel-protected reference to a kernel object. A task can only use an
+    object for which it holds a capability, and it can pass the capability
+    (with the same or fewer rights) to other tasks, which is the basis of
+    L4Re's security model.
 
   IPC
     Inter Process Communication. The foundational principle of the L4Re system
@@ -64,4 +67,6 @@ Glossary
     virtual machine guest.
 
   Virtio
-    ...
+    A paravirtualization interface standard for communicating with device
+    drivers. L4Re exposes hardware (e.g. block storage, network devices) to
+    virtual machine guests and L4Re applications as Virtio devices.
