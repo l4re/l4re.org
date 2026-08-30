@@ -75,7 +75,7 @@ built for the Qemu x86 platform:
 
    bob dev --dev-sandbox examples-amd64/examples::hello -j
 
-This might take a while. Especially the task that builds `core::l4re`. But when
+This might take a while. Especially the task that builds ``core::l4re``. But when
 finished, the output should end with the words ``Build result is in
 dev/dist/examples/hello/1/workspace``.
 

@@ -37,7 +37,7 @@ For the microkernel, you call the same in a build directory of the microkernel:
 Which generates a ``compile_commands.json`` in the build directory.
 
 There is one more thing to consider regarding LSP support for the
-microkernel. As it uses `preprocess` to generate the files to be compiled by
+microkernel. As it uses ``preprocess`` to generate the files to be compiled by
 the compiler, the source code files contain information that cannot be
 directly understood by LSP servers. However, there is a proxy available that
 translates between the actual source code files and the language server:

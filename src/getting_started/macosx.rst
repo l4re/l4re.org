@@ -116,7 +116,7 @@ In case you want to use Ham from its source repository on MacOS, some
 prerequisites have to be fulfilled.
 
 Ham is written in Perl and uses some further Perl modules, which need to be
-installed: `Git::Repository` and `XML::Parser`.
+installed: ``Git::Repository`` and ``XML::Parser``.
 
 .. sourcecode:: shell
 

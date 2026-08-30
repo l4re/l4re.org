@@ -64,7 +64,7 @@ following:
 Inspecting The Scenario
 =======================
 
-The `hello.cfg` file is a Lua script with the following content:
+The ``hello.cfg`` file is a Lua script with the following content:
 
 .. sourcecode:: lua
    :linenos:

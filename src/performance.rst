@@ -11,7 +11,7 @@ mechanism that allows exchanging a limited amount of payload data between
 two threads. Context switching is switching from one executing thread to
 another, which sending a message is exactly doing.
 The fastest IPC is between two threads running in the same
-address space (task) on the same CPU core (`Intra`). `Inter` is IPC between
+address space (task) on the same CPU core (``Intra``). ``Inter`` is IPC between
 two address spaces. A syscall is also an IPC but only communicates with the
 kernel.
 

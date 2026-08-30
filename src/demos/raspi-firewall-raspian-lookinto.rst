@@ -131,7 +131,7 @@ image. Like this:
 
 Now we have all the files of the image in ``/tmp/image``.
 
-There is one `ned` file, which is ``start.ned``. This is the configuration
+There is one ``ned`` file, which is ``start.ned``. This is the configuration
 file that describes what is started and how all the programs and VMs are
 connected.
 
