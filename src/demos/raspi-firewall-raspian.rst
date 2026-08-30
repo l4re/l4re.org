@@ -5,8 +5,8 @@ This is a demo of some capabilities of open source L4Re Operating System Framewo
 Raspberry Pi 4B. It demonstrates L4Re's virtualization capabilities as well as running native L4Re
 MicroApps.
 
-This demo features two virtual machines (VMs). The first VM runs OpenWRT and acts as an on-device
-firewall. The second VM runs Raspian Lite and connects through OpenWRT to the internet. A native
+This demo features two virtual machines (VMs). The first VM runs OpenWrt and acts as an on-device
+firewall. The second VM runs Raspian Lite and connects through OpenWrt to the internet. A native
 L4Re MicroApp periodically blinks the green activity LED of the Raspberry Pi. The persistent
 storage for the VMs is provided by a native eMMC driver which securely provides individual
 partitions to each VM.
@@ -91,10 +91,10 @@ To disconnect from a client console press `CTRL+e .` ("Ctrl e" plus "dot")
 The VMs
 =======
 
-OpenWRT
+OpenWrt
 -------
 
-If your PC and the Raspberry Pi are connected to the same network you can access the OpenWRT web
+If your PC and the Raspberry Pi are connected to the same network you can access the OpenWrt web
 interface.
 
 .. figure:: openwrt-webui.png
@@ -102,7 +102,7 @@ interface.
 
    Screenshot of OpenWrt web interface
 
-Find out the IP address of the OpenWRT VM:
+Find out the IP address of the OpenWrt VM:
 
 .. sourcecode::
 
@@ -126,7 +126,7 @@ Login to Raspian:
     | login: `pi`
     | password: `raspberry`
 
-If the Raspberry Pi is connected to a network via Ethernet you can connect to the internet. OpenWRT
+If the Raspberry Pi is connected to a network via Ethernet you can connect to the internet. OpenWrt
 is NAT'ing the network access.
 
 .. sourcecode::
