@@ -29,7 +29,7 @@ PCIe device, no further setup is required.
 .. literalinclude:: ../../../_static/use-cases/emmc-qemu/vbus.io
    :caption: vbus.io
 
-A module.list entry looks like this:
+A modules.list entry looks like this:
 
 .. literalinclude:: ../../../_static/use-cases/emmc-qemu/modules.list
    :caption: modules.list

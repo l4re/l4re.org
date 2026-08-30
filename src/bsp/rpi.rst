@@ -61,7 +61,7 @@ Preparing an RPi for use
       arm_64bit=0
       kernel=u-boot.bin
 
-* Connect the serial adapter to your RPi. There are lots of information out
+* Connect the serial adapter to your RPi. There is lots of information out
   there, `for example this one <https://elinux.org/RPi_Serial_Connection>`_.
 * Prepare a terminal program on your laptop/workstation. We recommend minicom.
   For details refer to the URL in the previous step.
@@ -184,9 +184,9 @@ With the RPi up to version 4, we use u-boot for network booting.
 
 Generally it is only needed to have TFTP working, DHCP is optional, as IP addresses can be set within u-boot, but it is recommended to have it. dnsmasq offers both TFTP and DHCP services.
 
-If you do not have an ethernet-based network (you only use WIFI or are not allowed to connect unauthorized devices to the network you're using) you can also directly connect the RPi to your notebook / workstation using an Ethernet cable. Use an USB-Ethernet dongle if you need to.
+If you do not have an ethernet-based network (you only use WIFI or are not allowed to connect unauthorized devices to the network you're using) you can also directly connect the RPi to your notebook / workstation using an Ethernet cable. Use a USB-Ethernet dongle if you need to.
 
-With using DHCP, the RPi should get an IP address::
+When using DHCP, the RPi should get an IP address::
 
         U-Boot> dhcp
 

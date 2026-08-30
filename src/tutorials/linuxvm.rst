@@ -81,7 +81,7 @@ following components:
    ├── libvcpu
    └── uvmm
 
-Continue by configuring the L4Re Microkernel (aka Fiasco) microkernel:
+Continue by configuring the L4Re Microkernel (aka Fiasco):
 
 ::
 

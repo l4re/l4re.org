@@ -58,7 +58,7 @@ shall run on all x86-based systems.
 Porting Guide
 -------------
 
-There is also a BSP porting guide to enable a platforms for L4Re without a device tree: :doc:`porting-guide`
+There is also a BSP porting guide to enable a platform for L4Re without a device tree: :doc:`porting-guide`
 
 
 BSPs

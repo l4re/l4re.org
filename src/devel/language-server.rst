@@ -11,7 +11,7 @@ Generally, a language server like ``clangd`` needs an input file
 User-level
 ----------
 
-User-level components are built out of combined source tree. The build
+User-level components are built out of a combined source tree. The build
 system generates a ``compile_commands.json`` file by calling this from your
 build directory:
 

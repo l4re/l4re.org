@@ -13,7 +13,7 @@ server.
 
 The L4Re IPC framework employs C++ techniques to provide all the code for
 both client-side and server-side usage. Based on interface definitions it
-provides code from marshalling and unmarshalling the data to be transferred
+provides code for marshalling and unmarshalling the data to be transferred
 as well as client side function stubs and server side dispatching
 functionality.
 

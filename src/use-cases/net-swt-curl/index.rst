@@ -82,7 +82,7 @@ A ``resolv.conf`` file also needs to be supplied with the following content:
 .. literalinclude:: ../../../_static/use-cases/net-swt-curl/resolv.conf
    :caption: resolv.conf
 
-A module.list entry looks like this:
+A modules.list entry looks like this:
 
 .. literalinclude:: ../../../_static/use-cases/net-swt-curl/modules.list
    :caption: modules.list

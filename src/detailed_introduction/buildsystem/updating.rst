@@ -35,8 +35,8 @@ Repositories with changes are likely to fail the ``sync`` operation. It can be
 handy to see where you have to manually resolve sync failures with the
 ``status`` operation.
 
-A more generic functionality is the ``foarall`` operation, which executes an
-arbitrary command in each repositories root directory. A different approach for
+A more generic functionality is the ``forall`` operation, which executes an
+arbitrary command in each repository's root directory. A different approach for
 syncing your source tree is the following.
 
 .. sourcecode:: shell

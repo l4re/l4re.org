@@ -8,7 +8,7 @@ familiar to you.
 Configuration using the standard console interface
 --------------------------------------------------
 
-Once you've created a build directory and navigated into it. You can run the
+Once you've created a build directory and navigated into it, you can run the
 following command to configure your build::
 
   make menuconfig

@@ -41,7 +41,7 @@ run a safety, real time guest next to a general-purpose Linux VM.
 Build
 =====
 
-Follow the :ref:`initial build introductions <getting_started-bob>`. Build
+Follow the :ref:`initial build instructions <getting_started-bob>`. Build
 the particular example via:
 
 .. sourcecode:: shell

@@ -67,7 +67,7 @@ covering a whole file):
 ```c++
 namespace Xyz { namespace Abc {
   This_is_some_statement;
-}} // namespace Xzy::Abc
+}} // namespace Xyz::Abc
 ```
 
 The contents of a namespace shall not be indented when the namespace covers a
@@ -98,7 +98,7 @@ be broken into sensible chunks. One exception to this rule is to never break
 user-visible strings because that breaks the ability to grep for them.
 
 It is not allowed to put multiple statements on a single line. It is not
-allowed to put multiple assignments on a single line.  The only exceptions is
+allowed to put multiple assignments on a single line.  The only exception is
 for switch statements where case, statement and break may go on a single line
 provided the line remains shorter than 80 characters.
 
@@ -469,7 +469,7 @@ condition. You may use `L4Re::chksys()` to convert the error to an exception.
 * check for errors that may be expected in production
 * stop the program on an unexpected condition.
 
-Assertion must not have side effects. The program must work safely when they
+Assertions must not have side effects. The program must work safely when they
 are disabled. In particular, the core components must be able to handle
 unexpected conditions in a way that the system remains in a safe state.
 
