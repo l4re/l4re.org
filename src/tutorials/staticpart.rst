@@ -23,7 +23,7 @@ support, reconfigure the kernel:
 
 ::
 
-   [somedir/build-aarch64] $ make -C fiasco menuconfig
+   [somedir/build-aarch64] $ make menuconfig
 
 Navigate to *System* and set ``CONFIG_MP_MAX_CPUS`` to ``4`` (or
 higher). Save the configuration and rebuild:
