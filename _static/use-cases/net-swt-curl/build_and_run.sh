@@ -10,7 +10,7 @@ cd demo
 wget -q $BASEURL/manifest-l4re-net-curl.xml
 
 # Get sources
-git clone https://github.com/kernkonzept/ham.git
+git clone https://github.com/L4Re/ham.git
 ham/ham init -f manifest-l4re-net-curl.xml
 ham/ham sync
 
