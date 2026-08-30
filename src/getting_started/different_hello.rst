@@ -62,7 +62,8 @@ expect.
 
 Let's not greet the whole world, but only a specific creature. Let's also
 encapsulate this greeting functionality. Let's add a C source file named
-``server/src/greeting.c`` as well as a header file ``server/src/greeting.h``:
+``server/src/greeting.c`` as well as a header file
+``server/include/greeting.h``:
 
 .. sourcecode:: c
    :caption: pkg/hello/server/include/greeting.h

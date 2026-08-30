@@ -154,7 +154,7 @@ Instead, the script now creates a new IPC channel and passes its server
 end to *cons* in a capability of the same name. *cons* uses it for a
 factory server object which manufactures new client connections. The
 client end of the channel is passed to the VMM package so that
-*vmm.vm_start* can create new console connections for the VMs.
+*vmm.start_vm* can create new console connections for the VMs.
 
 The ned script starts *cons* followed by starting the VMs.
 
@@ -297,7 +297,7 @@ We added two extra arguments to our wrapper function: *net* and *args*.
 *net* is a client virtio-net capability created in
 *vmm.start_virtio_switch*. Based on this capability and information
 found in the device tree, *uvmm* presents a virtio-net device to the
-guest. Its server end is connected to *l4vio-net-p2p*.
+guest. Its server end is connected to *l4vio_net_p2p*.
 
 *args* is appended to the VM’s boot command line and we use it here to
 set the guests’ IP addresses. Mind the extra trailing space in the

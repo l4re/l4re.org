@@ -23,20 +23,20 @@ support, reconfigure the kernel:
 
 ::
 
-   [somedir/build-aarch64] $ make menuconfig
+   [somedir/build-fiasco-aarch64] $ make menuconfig
 
 Navigate to *System* and set ``CONFIG_MP_MAX_CPUS`` to ``4`` (or
 higher). Save the configuration and rebuild:
 
 ::
 
-   [somedir/build-aarch64] $ make
+   [somedir/build-fiasco-aarch64] $ make
 
 QEMU options
 ~~~~~~~~~~~~
 
 You need to tell QEMU to emulate a multi-core machine with enough
-memory. Edit ``somedir/build-aarch64/Makeconf.boot`` and add the
+memory. Edit ``somedir/l4/conf/Makeconf.boot`` and add the
 following QEMU flags:
 
 ::

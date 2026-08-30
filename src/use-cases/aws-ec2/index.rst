@@ -114,7 +114,7 @@ To use it on EC2, please refer to the iPXE's EC2 site at
 https://ipxe.org/howto/ec2 to configure your instance accordingly by picking
 the right AMI for your architecture choice and EC2 region.
 
-As described on the iPXE page, the "user state" of an instance needs to have
+As described on the iPXE page, the "user data" of an instance needs to have
 an iPXE script like this, for arm64::
 
    #!ipxe

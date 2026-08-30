@@ -52,7 +52,7 @@ following:
   .. tab:: Bob Build Tool
 
      The Lua script specifying the scenario configuration to be launched by Ned
-     is stored in ``$BOB_DIR/recipes/example/hello/hello.cfg``, which initially just
+     is stored in ``$BOB_DIR/recipes/examples/hello/hello.cfg``, which initially just
      starts the ``hello`` application.
 
   .. tab:: GNU Make
