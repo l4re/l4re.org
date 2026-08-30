@@ -5,7 +5,7 @@ Hardware access control
    :class: note
 
    This part of the website is being worked on. Please refer to `the doxygen
-   documentation <https://l4re.org/doc/l4re_servers_io.html>`_ for information
+   documentation <https://l4re.org/doc/io.html>`_ for information
    about this topic.
 
 .. todo::

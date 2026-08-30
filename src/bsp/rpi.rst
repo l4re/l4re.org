@@ -40,7 +40,7 @@ built-in network booting capabilities. Details: to come.
 Preparing an RPi for use
 ========================
 
-* Copy `Raspian <https://www.raspberrypi.org/downloads/>`_ to the RPi's SD card
+* Copy `Raspberry Pi OS <https://www.raspberrypi.com/software/>`_ to the RPi's SD card
   as usual.
 * Decide whether you want to run L4Re in 64bit (arm64) or 32bit (arm) mode. If
   the RPi supports it we recommend the 64bit variant. Otherwise the 32bit

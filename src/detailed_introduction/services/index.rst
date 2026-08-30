@@ -27,7 +27,7 @@ ned - Versatile, Lua scripted init process
 unless configured differently. Ned's job is to bootstrap the system running on
 L4Re. The main thing to do here is to coordinate the startup of services and
 applications as well as to provide the communication channels for them. The
-central facility in Ned is the `Lua <http://www.lua.org>`_ script interpreter
+central facility in Ned is the `Lua <https://www.lua.org/>`_ script interpreter
 with the L4Re and ELF-loader bindings.
 
 The boot process is based on the execution of one or more Lua scripts that

@@ -46,7 +46,7 @@ needs to be configured accordingly.
 
 The script references two files for configuring the io component.
 ``x86-legacy.devs`` describes some of the always existing devices in an x86-based
-system and can be found `here <https://github.com/L4Re/io/tree/master/io/configs/x86-legacy.devs>`_.
+system and can be found `here <https://github.com/L4Re/io/blob/main/io/configs/x86-legacy.devs>`_.
 
 ``vbus.io`` creates a virtual bus for the rtc service, using this content:
 

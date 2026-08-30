@@ -54,7 +54,7 @@ An appropriate script for ned may look like this:
 
 The script references two files for configuring the io component.
 ``hw_devices.io`` is the hardware device configuration of the S32G, as found
-`here <https://github.com/L4Re/io/tree/master/io/configs/plat-s32g/hw_devices.io>`_.
+`here <https://github.com/L4Re/io/blob/main/io/configs/plat-s32g/hw_devices.io>`_.
 
 ``vbus.io`` creates a virtual bus for the emmc driver, using this content:
 

@@ -198,7 +198,7 @@ interconnects them via IPC channels (i.e. IPC gate capabilities)
 according to a Lua configuration file passed to it as an argument.
 
 For our little scenario there is already a demo ned script, called
-`VM-Basic <https://github.com/L4Re/mk/blob/master/conf/examples/vm-basic.cfg>`__.
+`VM-Basic <https://github.com/L4Re/mk/blob/main/conf/examples/vm-basic.cfg>`__.
 
 This ned script is as basic as it gets. It only supports a single VM and
 does not pass any host I/O devices to the VM, but already contains
@@ -206,9 +206,9 @@ everything necessary for doing just that without additional bells and
 whistles. More complex scenarios (e.g. involving multiple VMs) will
 require a more complex ned script and possibly also additional L4Re
 components (see
-`VM-Multi <https://github.com/L4Re/mk/blob/master/conf/examples/vm-multi.cfg>`__,
-`VM-Multi-P2P <https://github.com/L4Re/mk/blob/master/conf/examples/vm-multi-p2p.cfg>`__,
-`VM-Basic-PCI <https://github.com/L4Re/mk/blob/master/conf/examples/vm-basic-pci.cfg>`__).
+`VM-Multi <https://github.com/L4Re/mk/blob/main/conf/examples/vm-multi.cfg>`__,
+`VM-Multi-P2P <https://github.com/L4Re/mk/blob/main/conf/examples/vm-multi-p2p.cfg>`__,
+`VM-Basic-PCI <https://github.com/L4Re/mk/blob/main/conf/examples/vm-basic-pci.cfg>`__).
 
 There is also a convenience wrapper for launching VMs. You shall see in
 a later example how to use it.
@@ -221,7 +221,7 @@ For the above configuration, there must also be an entry in
 knows what binaries and config files to load.
 
 You can see the file
-`here <https://github.com/L4Re/mk/blob/master/conf/modules.list#L120>`__
+`here <https://github.com/L4Re/mk/blob/main/conf/modules.list#L120>`__
 (The exact line number in the URL might change while the file is being
 modified. Check for ``entry[...] VM-basic``.
 
