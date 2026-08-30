@@ -121,7 +121,7 @@ repositories:
    cd $HOME/l4re_projects
    ham init -u https://github.com/L4Re/manifest.git
 
-This initialises a Ham project without checking out any sources. The
+This initializes a Ham project without checking out any sources. The
 ``manifest`` repository holds all information Ham needs to set up our L4Re
 source tree. For now, there is only a ``.ham/`` directory.
 
@@ -180,7 +180,7 @@ From now on we might call ``make`` either directly from the build directory or
 from the source directory by additionally providing ``O=$L4RE_OBJDIR``.
 
 
-The initialisation step has already configured our build with certain defaults.
+The initialization step has already configured our build with certain defaults.
 These are what we will be using in this guide. The default architecture we will
 build L4Re for is ``amd64`` / ``x86_64``.
 
@@ -250,7 +250,7 @@ Building the L4Re Microkernel
 
 Building The L4Re Microkernel works like building L4Re. A major difference is
 that we cannot build it from the source directory. Calling make in the source
-directory is only done once for initialising the build directory.
+directory is only done once for initializing the build directory.
 
 .. sourcecode:: shell
 
@@ -265,7 +265,7 @@ The resulting microkernel binary is called ``fiasco``.
 .. note::
 
    Again, building for ``x86_64`` is the default configuration which is
-   configured during build directory initialisation. The target architecture
+   configured during build directory initialization. The target architecture
    and other options can be changed by calling ``make config``.
 
 
