@@ -48,7 +48,7 @@ div.begin aside {
     flex-grow: 1;
 }
 
-summary.topic-title {
+p.topic-title {
     font-size: 1.1em;
     font-weight: bold;
 }
