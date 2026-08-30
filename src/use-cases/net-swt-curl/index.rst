@@ -16,12 +16,12 @@ drivers for many, if not all, devices. A downside is that a
 whole operating system and VM is required for this option, even if it can
 be specifically customized for purpose of handling networking only.
 
-A driver running in an L4Re application. This driver can either be ported
-from some other environment or operating system, or written from scratch.
-Eventually such a driver needs to interact with the software
-components that use it. Use could be in-process, i.e. an application has a
-specific network driver built-in and thus directly talks to the network
-device. Or the driver offers its services to other components in the
+The other way is a driver running in an L4Re application. This driver can
+either be ported from some other environment or operating system, or
+written from scratch. Eventually such a driver needs to interact with the
+software components that use it. Usage could be in-process, i.e. an
+application has a specific network driver built-in and thus directly
+talks to the network device. Or the driver offers its services to other components in the
 system through a shared memory interface. For network, Virtio-net is a
 common and established interface.
 
