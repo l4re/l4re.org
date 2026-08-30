@@ -62,7 +62,7 @@ The list command understands globbing, like this::
     cons>
 
 Shortcuts
----------
+=========
 
 There can only be key shortcuts for accessing specific consoles. In our
 example console ``vm1`` has the key shortcut ``1`` such that the console of
@@ -91,6 +91,6 @@ The supported frontends are limited to :l4re:`L4::Vcon` only.
 
 
 Command-line Options
---------------------
+====================
 
 Please refer to `the doxygen documentation <https://l4re.org/doc/l4re_servers_cons.html>`_.

@@ -116,7 +116,7 @@ driver in the ``OBJECTS_LIBUART`` variable in the ``Modules`` file of your
 BSP to use the driver for your platform.
 
 Recommended Order of Work
-=========================
+-------------------------
 
 We recommend to first write the UART driver, if required, and then add the
 platform support to bootstrap. This ensures that output from bootstrap can

@@ -17,8 +17,8 @@ Building The Snapshot and Running Examples
      AsciinemaPlayer.create('_static/casts/snapshot-build.cast', document.getElementById('snapshot_cast'));
    </script>
 
-Running Multiple VMs in QEMU
-============================
+Running The VM Example With PCI Pass-Through in QEMU
+====================================================
 
 .. raw:: html
 
@@ -27,8 +27,8 @@ Running Multiple VMs in QEMU
      AsciinemaPlayer.create('_static/casts/vm-basic-pci-qemu-x86.cast', document.getElementById('basic_vm'));
    </script>
 
-Running The VM Example With PCI Pass-Through in QEMU
-====================================================
+Running Multiple VMs in QEMU
+============================
 
 .. raw:: html
 

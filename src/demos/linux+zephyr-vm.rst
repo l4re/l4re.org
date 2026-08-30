@@ -17,8 +17,8 @@ run a safety, real time guest next to a general-purpose Linux VM.
      [Linux VM]
    }
 
-   [rtc] ..> [io] : map LAN91C111 device
-   vm2 ..> [io] : map PL031 device
+   [rtc] ..> [io] : map PL031 device
+   vm2 ..> [io] : map LAN91C111 device
 
    package "Hardware Interfaces" {
    interface UART
