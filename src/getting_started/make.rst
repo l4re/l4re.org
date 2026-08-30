@@ -26,7 +26,7 @@ Depending on your host system, you might need to install some prerequisites.
 
    .. sourcecode:: shell
 
-      apt-get install git make binutils liburi-perl libgit-repository-perl libxml-parser-perl gcc g++ libc6-dev-i386 libncurses-dev qemu-system xorriso mtools flex bison pkg-config gawk device-tree-compiler dialog wget doxygen graphviz qemu-system expect
+      apt-get install git make binutils liburi-perl libgit-repository-perl libxml-parser-perl gcc g++ libc6-dev-i386 libncurses-dev qemu-system xorriso mtools flex bison pkg-config gawk device-tree-compiler dialog wget doxygen graphviz expect
 
 
 .. tab:: Fedora
