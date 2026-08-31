@@ -79,7 +79,7 @@ is used. On x86, the fixed-function counters are used.
 
 For x86: You can boot the image directly in GRUB2, e.g. ``multiboot2 (http,l4re.org)/download/ipcbench/amd64/l4re_ipcbench-20250602.elf``
 
-For the Raspberry Pi's, converting the uimage to a raw image for firmware
+For the Raspberry Pis, converting the uimage to a raw image for firmware
 boot works like this: ``dd if=l4re_ipcbench_rpi5-elX.uimage of=l4re.raw bs=64 skip=1``.
 
 
