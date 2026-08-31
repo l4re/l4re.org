@@ -188,8 +188,8 @@ respective PCI IDs.
        Property.num_msis = 512;
 
        PCI0 = Io.Vi.PCI_bus(function ()
-           network0 = wrap(ena_devices[0])
-           network1 = wrap(ena_devices[1])
+           network0 = wrap(ena_devices[1])
+           network1 = wrap(ena_devices[2])
        end);
      end);
    };
