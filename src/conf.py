@@ -9,7 +9,7 @@
 import os
 
 project = 'L4Re Operating System Framework'
-copyright = ': This page is licensed under CC-BY-SA 4.0'
+copyright = 'L4Re project members and individual contributors'
 author = 'L4Re project members and individual contributors'
 
 # -- General configuration ---------------------------------------------------
@@ -70,4 +70,9 @@ html_theme_options = {
     "path_to_docs": "src",
     "use_edit_page_button": True,
     "use_issues_button": True,
+    # Drop the author item: it repeats the copyright holder.
+    "footer_content_items": ["copyright", "last-updated", "extra-footer"],
+    "extra_footer": '<p>This page is licensed under '
+                    '<a href="https://creativecommons.org/licenses/by-sa/4.0/">'
+                    'CC-BY-SA 4.0</a>.</p>',
 }
