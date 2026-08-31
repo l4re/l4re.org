@@ -44,6 +44,16 @@ doxylink = {
     'l4re': (os.getenv("PATH_L4RE_TAG_FILE") or "", 'https://l4re.org/doc/'),
 }
 
+# -- Link checking -----------------------------------------------------------
+
+# These hosts reject linkcheck's requests with 403 but obviously work
+linkcheck_ignore = [
+    r'https://developer\.arm\.com/',
+    r'https://doi\.org/',
+    r'http://doi\.acm\.org/',
+]
+
+
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
