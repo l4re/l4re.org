@@ -44,7 +44,7 @@ Depending on your host system, you might need to install some prerequisites.
 
    .. sourcecode:: shell
 
-      pacman -S --needed base-devel dtc lib32-gcc-libs qemu qemu-ar dialog doxygen perl-template-toolkit expect
+      pacman -S --needed base-devel dtc lib32-gcc-libs qemu qemu-full dialog doxygen perl-template-toolkit expect
 
    Additionally, these packages need to be installed from the AUR by a method
    of your choice:
