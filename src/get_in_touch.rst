@@ -6,7 +6,9 @@ available:
 
 .. topic:: The Mailing List
 
-   Reach out on the l4-hackers@os.inf.tu-dresden.de mailing list for help.
+   Reach out on the l4-hackers@os.inf.tu-dresden.de `mailing list
+   <https://os.inf.tu-dresden.de/mailman3/postorius/lists/l4-hackers.os.inf.tu-dresden.de/>`_
+   for help.
 
 .. topic:: Github Issues
 
