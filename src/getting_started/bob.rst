@@ -113,4 +113,4 @@ Now you can go to :doc:`multiple_hello` to learn how to adjust l4re scenarios
 to your liking.
 
 .. _Bob Build Tool: https://bobbuildtool.dev
-.. _L4Re tutorial recipes: https://github.com/l4re/l4re-tutorials.git
+.. _L4Re tutorial recipes: https://github.com/l4re/l4re-tutorials
