@@ -121,8 +121,3 @@ comparable to the example below::
 
 
 You can stop the example by pressing ``Ctrl+C``.
-
-Detailed description
-====================
-
-
