@@ -27,7 +27,7 @@ file. Ham is used by the L4Re infrastructure. It is optional. Git
 repositories can also be downloaded with Git alone given they are arranged
 as required.
 
-+Ham is available from its `Git repository <https://github.com/L4Re/ham>`__.
+Ham is available from its `Git repository <https://github.com/L4Re/ham>`__.
 
 See below for instructions how Ham can be used from its source repository on
 MacOS.
