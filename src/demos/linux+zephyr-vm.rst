@@ -61,11 +61,13 @@ for your host platform. These models are available free of charge:
 
 .. sourcecode:: shell
 
-    wget https://developer.arm.com/-/cdn-downloads/permalink/FVPs-Architecture/FM-11.28/FVP_Base_AEMv8R_11.28_23_Linux64.tgz
-    tar xf FVP_Base_AEMv8R_11.28_23_Linux64.tgz
-    export PATH="$PWD/AEMv8R_base_pkg/models/Linux64_GCC-9.3:$PATH"
+    wget https://developer.arm.com/-/cdn-downloads/permalink/FVPs-Architecture/FM-11.32/FVP_Base_AEMv8R_11.32_19_Linux_x86.tar.gz
+    tar xf FVP_Base_AEMv8R_11.32_19_Linux_x86.tar.gz
+    ./FVP_Base_AEMv8R_11.32_19_Linux_x86.sh
+    # follow the installation instructions, adapt the path below as needed
+    export PATH="$HOME/FVP_Base_AEMv8R_11.32_19/bin:$PATH"
 
-The example has been tested with the 11.28 release but it should also work
+The example has been tested with the 11.32 release but it should also work
 with older models. Starting the example assumes that the FVP is available
 in ``$PATH``:
 
