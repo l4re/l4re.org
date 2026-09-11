@@ -15,6 +15,7 @@ Scheduling Constraints: A Universal OS Mechanism for Managing Shared Resources
   *32nd IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), Saint Malo, France, May 2026* |br|
   `IEEE <https://ieeexplore.ieee.org/document/11558383>`__
   | `DOI <https://doi.org/10.1109/RTAS68450.2026.00042>`__
+  | `PDF <https://os.inf.tu-dresden.de/papers/rtas2026-l4re-sched-constraints.pdf>`__
 
 MettEagle: Costs and Benefits of Implementing Containers on Microkernels
   Till Miemietz, Viktor Reusch, and Matthias Hille, Barkhausen Institut; Lars Wrenger, Leibniz-Universität Hannover; Jana Eisoldt, Barkhausen Institut; Jan Klötzke, Kernkonzept GmbH; Max Kurze, Technische Universität Dresden; Adam Lackorzynski, Technische Universität Dresden and Kernkonzept GmbH; Michael Roitzsch, Barkhausen Institut; Hermann Härtig, Barkhausen Institut and Technische Universität Dresden |br|
