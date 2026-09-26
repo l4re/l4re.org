@@ -10,5 +10,6 @@ Use cases shall describe whole setups that can be run.
    rtc/index
    net-swt-curl/index
    emmc-qemu/index
+   uboot-vm/index
    aws-ec2/index
    usb/index

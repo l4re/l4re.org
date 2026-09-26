@@ -1,0 +1,17 @@
+entry uboot-vm
+kernel fiasco -serial_esc
+roottask moe rom/uboot-vm.ned
+module l4re
+module ned
+module cons
+module io
+module emmc-drv
+module l4vio_switch
+module uvmm
+module ned/uvmm/vmm.lua
+module[arch=arm64] io/plat-arm_virt/hw_devices.io
+module dtb/virt-arm_virt-64.dtb
+module vbus.io
+module uboot-vm.ned
+module uboot-vm.dtbo
+module u-boot.bin

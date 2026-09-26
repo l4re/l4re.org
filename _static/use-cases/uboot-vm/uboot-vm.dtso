@@ -1,0 +1,38 @@
+/*
+ * Device tree overlay for a VM booting u-boot, applied on top of uvmm's
+ * virt-arm_virt-64.dtb. It adds
+ *  - a virtio-block device for the VM's disk, and
+ *  - a CFI flash, backed by a virtio-block device, for u-boot's environment.
+ */
+
+/dts-v1/;
+/plugin/;
+
+/ {
+  fragment@0 {
+    target-path = "/l4vmm";
+    __overlay__ {
+      virtio_blk@5000 {
+        compatible = "virtio,mmio";
+        reg = <0x5000 0x200>;
+        interrupts = <0 124 4>;
+        l4vmm,vdev = "proxy";
+        l4vmm,virtiocap = "disk";
+      };
+    };
+  };
+
+  fragment@1 {
+    target-path = "/";
+    __overlay__ {
+      flash@1000000 {
+        compatible = "cfi-flash";
+        reg = <0x0 0x1000000 0x0 0x100000>;
+        bank-width = <4>;
+        device-width = <2>;
+        erase-size = <0x10000>;
+        l4vmm,virtiocap = "env";
+      };
+    };
+  };
+};
