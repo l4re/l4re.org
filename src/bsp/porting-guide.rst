@@ -6,9 +6,10 @@ BSP Porting Guide
 .. admonition:: Note
    :class: note
 
-   Generally porting L4Re to a specific BSP shall not be necessary anymore as
-   the "Generic Platform" uses platform and firmware information provided by
-   the platform, for example, the device tree.
+   Generally, with the Arm architecture, porting L4Re to a specific BSP
+   shall not be necessary anymore as the "Generic Platform" uses platform
+   and firmware information provided by the platform, for example, the
+   device tree.
 
 However, if the code needed by boot-up and in the microkernel Fiasco shall
 be minimal, L4Re can be adapted specifically to a SoC/board.
