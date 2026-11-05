@@ -76,7 +76,7 @@ Set up some configuration. Can be any, given it is built for Aarch64.
    CONFIG_MP_MAX_CPUS=8
    CONFIG_ARM_SMC_USER=y
    CONFIG_ARM_PSCI=y
-   CONFIG_PERFORMANCE=y
+   CONFIG_BENCHMARKING=y
    CONFIG_PERF_CNT_USER=y
    CONFIG_EXPERT=y
    _EOF
