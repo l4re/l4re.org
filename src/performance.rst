@@ -19,7 +19,7 @@ kernel.
 The following table provides IPC performance numbers for a single IPC on
 various popular platforms (average over multiple ten thousand calls). To
 perform the measurement, the L4Re microkernel has been configured in its
-performance configuration ``CONFIG_PERFORMANCE=y``, i.e., without
+performance configuration ``CONFIG_BENCHMARKING=y``, i.e., without
 assertions.
 
 The source code of the benchmark program can be found `here
